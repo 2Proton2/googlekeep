@@ -1,0 +1,55 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note-main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 500px 0px 500px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.submit-button{
+    width: 10%;
+    float: right;
+}
+
+.note-main-elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.each-note{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.delete-btn{
+    color: red;
+}
+
+.one{
+    flex:1;
+}
+
+.two{
+    flex: 1;
+}
+
+.three{
+    flex:9;
+}
+
+.four{
+    flex:1;
+}
